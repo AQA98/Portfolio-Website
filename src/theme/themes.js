@@ -33,7 +33,7 @@ export const darkTheme = {
   timelineLineColor: '#444',
   cardBackground: '#060606',
   cardFooterBackground: '#181818',
-  cardBorderColor: '#ffffff20',
+  cardBorderColor: '#ffffff2',
   navbarTheme: {
     linkColor: '#dedede',
     linkHoverColor: '#fefefe',

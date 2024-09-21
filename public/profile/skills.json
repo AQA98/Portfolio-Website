@@ -1,17 +1,13 @@
 {
-    "intro": "I love to learn new things and experiment with new technologies.\nThese are some of the major languages, technologies, tools and platforms I have worked with:",
+    "intro": "I'm a lifelong learner and tech explorer, always up for trying something new! Here are some of the main languages, tools, and platforms I've had fun experimenting with:",
     "skills": [{
      
-            "title": "Languages & Databases",
+            "title": "OS, Languages & Databases",
             "items" : [
      
                 {
                     "icon": "images/skills/java.png",
                     "title": "Java"
-                },
-                {
-                    "icon": "images/skills/php.png",
-                    "title": "PHP"
                 },
                 {
                     "icon": "images/skills/js.png",
@@ -22,41 +18,57 @@
                     "title": "Python"
                 },
                 {
-                    "icon": "images/skills/mysql.png",
-                    "title": "MySQL"
+                    "icon": "images/skills/postgresql.png",
+                    "title": "PostgreSQL"
+                },
+                {
+                    "icon": "images/skills/Linux.png",
+                    "title": "Linux"
+                },
+                {
+                    "icon": "images/skills/ASP dotNet.png",
+                    "title": "ASP .Net"
                 }
         ]},
         {
             "title": "Frameworks & Technologies",
             "items" : [
                 {
-                    "icon": "images/skills/android_new.png",
-                    "title": "Android"
-                },
-                {
-                    "icon": "images/skills/react.png",
-                    "title": "React"
-                },
-                {
                     "icon": "images/skills/nodejs.png",
                     "title": "Nodejs"
+                },
+                {
+                    "icon": "images/skills/express.png",
+                    "title": "Expressjs"
+                },
+                {
+                    "icon": "images/skills/Pyspark.PNG",
+                    "title": "Pyspark"
                 }
             ]
         },
         {
-            "title" : "Tools & Platforms",
+            "title" : "DevOps Tools & Platforms",
             "items": [
                 {
-                    "icon": "images/skills/android-studio.png",
-                    "title": "Android Studio"
-                },
-                {
-                    "icon": "images/skills/git.png",
-                    "title": "Git"
+                    "icon": "images/skills/gitHub.png",
+                    "title": "GitHub"
                 },
                 {
                     "icon": "images/skills/docker.png",
                     "title": "Docker"
+                },
+                {
+                    "icon": "images/skills/Kubernetes.png",
+                    "title": "Kubernetes"
+                },
+                {
+                    "icon": "images/skills/AWS.png",
+                    "title": "AWS"
+                },
+                {
+                    "icon": "images/skills/ansible.png",
+                    "title": "Ansible"
                 }
             ]
     }
