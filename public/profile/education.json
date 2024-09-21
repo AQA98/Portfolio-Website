@@ -1,7 +1,7 @@
 {
     "education":[
         {
-            "title": "OnGoing",
+            "title": "On Going",
             "cardTitle": "AWS",
             "cardSubtitle":"AWS Solution Architect Associate",
             "cardDetailedText": "Expected Completion: Nov 2024",
@@ -10,7 +10,7 @@
                 "src": "images/education/AWS.png"
             }
         },{
-            "title": "OnGoing",
+            "title": "On Going",
             "cardTitle": "Kubernetes",
             "cardSubtitle":"CKAD Certification",
             "cardDetailedText": "Expected Completion: Oct 2024",

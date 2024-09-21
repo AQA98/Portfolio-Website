@@ -1,33 +1,39 @@
 {
     "experiences": [
         {
-            "title": "Software Engineer",
-            "subtitle": "XYZ Ltd",
+            "title": "IT Helpdesk Engineer",
+            "subtitle": "Gatestone & Co Inc.",
             "workType": "Full-time",
             "workDescription": [
-                "Integrated **2** new product.",
-                "Worked on adding **def** to **bcd**. Improved speed by 50%."
+                "Resolving software malfunctions with in SLA by utilizing skills in linux, Networking and Automation.",
+                "Implemented self serve password reset tool for the entire organization, resulting a 30% drop in call volume.",
+                "Creating power shell scripts for bulk updating user values in active directory.",
+                "Troubleshooting SharePoint access level issues following best ITIL practices.",
+                "Creating process documentation for other team members for a smooth call/email handling process."
             ],
-            "dateText": "06/20XX – Present"
+            "dateText": "05/2022 – Present"
         },
         {
-            "title": "Software Engineer",
-            "subtitle": "XYZ Ltd",
+            "title": "Software Developer QA Intern",
+            "subtitle": "Lallemand Montreal",
             "workType": "Internship",
             "workDescription": [
-                "Worked on abc."
+                "Validated excel reports using VBA, VLOOKUP and pivot tables during UAT phase of transition to Cognos 11 from Cognos 10.",
+                "Accomplished participation in test scenario meetings, providing valuable input to enhance testing outcomes.",
+                "Revise findings to the development team and stakeholders using analytical and problem solving skills."
             ],
-            "dateText": "01/20XX – 05/20XX"
+            "dateText": "06/2021 – 10/2021"
         },
         {
-            "title": "App Developer",
-            "subtitle": "ABC Pvt Ltd",
-            "workType": "Freelance",
+            "title": "Full stack Developer Intern",
+            "subtitle": "Bombardier Inc.",
+            "workType": "Internship",
             "workDescription": [
-                "Developed the official apps for the startup for both Android and iOS using hybrid framework.",
-                "Done bcd work."
+                "Used python (NumPy & Pandas) to extract information out of supplier excel files.",
+                "Leveraged Express.js for backend and HTML & CSS for frontend to publish and update process documentation on Bombardiers website.",
+                "Used VBA to record and modify excel macros to extact supplier information."
             ],
-            "dateText": "09/20XX – 01/20YY"
+            "dateText": "09/2020 – 04/2021"
         }
     ]
 }

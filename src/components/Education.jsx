@@ -55,7 +55,7 @@ function Education(props) {
                 mode={mode}
                 theme={{
                   primary: theme.accentColor,
-                  secondary: theme.chronoTheme.titleColor,
+                  secondary: theme.accentColor,
                   cardBgColor: theme.chronoTheme.cardBgColor,
                   cardForeColor: theme.chronoTheme.cardForeColor,
                   titleColor: theme.chronoTheme.titleColor,
