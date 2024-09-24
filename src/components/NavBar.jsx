@@ -99,7 +99,7 @@ const NavBar = () => {
                   key={section.title}
                   onClick={() => setExpanded(false)}
                   exact={index === 0}
-                  activeClassName="navbar__link--active"
+                  activeClassName="navbar__link--active-bold"
                   className="navbar__link"
                   to={section.href}
                   theme={theme}
