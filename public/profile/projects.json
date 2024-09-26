@@ -3,7 +3,7 @@
         {
             "image" : "images/projects/Portfolio.png",
             "title": "My Portfolio website",
-            "bodyText": "- Developer Portfolio Website made in **React**.\n -  **Docorized** the application and pushed the image to **dockerHub registery**.\n - Hosted the app on **Kubernetes** multi-node cluster.\n - Set up the **CI/CD** pipeline on jenkins which updates the dockerhub registery on every pull request after running tests on **sonarQube**.",
+            "bodyText": "- Portfolio Website made in **React**.\n -  **Docorized** the application, build the image using NGNIX server and pushed the image to **dockerHub registery**.\n - Deployed the app on **Kubernetes** multi-node cluster.\n - Set up the **CI/CD** pipeline on **Jenkins** which updates the dockerhub registery on every pull request after running tests on **sonarQube**.",
             "links": [
                 {
                     "text": "GitHub",
@@ -25,13 +25,14 @@
                 "Kubernetes",
                 "Jenkins",
                 "SonarQube",
-                "CI/CD"
+                "CI/CD",
+                "Devops"
             ]
         },
         {
-            "image" : "images/projects/caaring-poster.png",
+            "image" : "images/projects/Barbershop.png",
             "title": "Brothers BarberShop - FYP",
-            "bodyText": "- Led a team of 8 members in developing a **ExpressJs** & **VueJS** based full-stack appointment scheduling webapp.\n - Added User authentication using **JWT**, **Multer** for picture manipulation and password reset using **SendGrid**.\n - Used **PostgreSQL** for database and **POSTMAN** for API testing. \n - Used **MVC** as an architectural design pattern and **agile methodology** for project delivery. \n - Docorized the application.",
+            "bodyText": "- Led a team of 8 members in developing a **ExpressJs** & **VueJS** based full-stack appointment scheduling webapp.\n - Added User authentication using **JWT**, **Multer** for picture manipulation and password reset using **SendGrid**.\n - Used **PostgreSQL** for database and **POSTMAN** for API testing. \n - Used **MVC** as an architectural design pattern and **agile methodology** for project delivery. \n - Used Docker for containerizing the application and leveraged SonarQube for running automated tests.",
             "links": [
                 {
                     "text": "GitHub",
@@ -47,11 +48,12 @@
                 "JWT",
                 "Docker",
                 "PostgreSQL",
-                "POSTMAN"
+                "POSTMAN",
+                "JIRA"
             ]
         },
         {
-            "image" : "images/projects/quiet-hours-poster.jpg",
+            "image" : "images/projects/Books.png",
             "title": "Book For You Recommender - Big Data",
             "bodyText": "- .Built, and evaluated a Content-based and Collaborative recommender system with K-means and ALS algorithms.\n - Leveraged big data framework Apache Spark and Python to develop the recommenders.\n - Processed of 2.66 GB to train and evaluated the model’s using accuracy, precision, recall, F1-measure and RMSE.",
             "links": [
@@ -68,6 +70,7 @@
             ]
         },
         {
+            "image" : "images/projects/Maskdetector.png",
             "title": "AI Mask Detector using CNN",
             "bodyText": "- Developed an AI mask detector project to identify different types of masks using CNN supervised classification.\n - Leveraged machine learning frameworks i.e. **Pytorch**, **sklearn** and **python** to built the mask detector.\n - Achieved 79% accuracy, F1 score, recall, and 83% precision after removing racial bias from the dataset.",
             "links": [

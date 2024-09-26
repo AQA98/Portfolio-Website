@@ -1,0 +1,13 @@
+# Ignore node modules
+node_modules
+
+# Ignore Docker-related files
+Dockerfile
+
+# Ignore git repository files
+.git
+.gitignore
+
+# Ignore documentation and licenses
+LICENSE.md
+README.md

@@ -5,11 +5,12 @@
             "subtitle": "Gatestone & Co Inc.",
             "workType": "Full-time",
             "workDescription": [
-                "Resolving software malfunctions with in SLA by utilizing skills in linux, Networking and Automation.",
+                "Resolving software malfunctions with in SLA by utilizing skills in VM's, Networking and powershell Automation.",
                 "Implemented self serve password reset tool for the entire organization, resulting a 30% drop in call volume.",
                 "Creating power shell scripts for bulk updating user values in active directory.",
                 "Troubleshooting SharePoint access level issues following best ITIL practices.",
-                "Creating process documentation for other team members for a smooth call/email handling process."
+                "Creating process documentation for other team members for a smooth call/email handling process.",
+                "Collaborated with cross-functional teams regarding ongoing and upcoming IT projects."
             ],
             "dateText": "05/2022 – Present"
         },
@@ -20,7 +21,7 @@
             "workDescription": [
                 "Validated excel reports using VBA, VLOOKUP and pivot tables during UAT phase of transition to Cognos 11 from Cognos 10.",
                 "Accomplished participation in test scenario meetings, providing valuable input to enhance testing outcomes.",
-                "Revise findings to the development team and stakeholders using analytical and problem solving skills."
+                "Communicated the findings to the development team and stakeholders using analytical and problem solving skills."
             ],
             "dateText": "06/2021 – 10/2021"
         },

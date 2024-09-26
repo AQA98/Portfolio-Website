@@ -69,6 +69,14 @@
                 {
                     "icon": "images/skills/ansible.png",
                     "title": "Ansible"
+                },
+                {
+                    "icon": "images/skills/JIRA.png",
+                    "title": "JIRA"
+                },
+                {
+                    "icon": "images/skills/jenkins.png",
+                    "title": "Jenkins"
                 }
             ]
     }

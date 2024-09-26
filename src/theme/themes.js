@@ -1,45 +1,45 @@
 export const lightTheme = {
-  background: '#FAF0E6', // Light linen, elegant and soft
-  color: '#2E2E2E', // Dark charcoal for better text visibility
-  accentColor: '#8B4513', // Saddle brown for rich accents
+  background: '#F0F0F0', // Light neutral gray for a clean look
+  color: '#1E1E1E', // Almost black for strong text contrast
+  accentColor: '#008080', // Teal for a modern accent
   chronoTheme: {
-    cardBgColor: '#FFF5E1', // Soft cream for cards
-    cardForeColor: '#3B3B3B', // Dark charcoal for text on cards
-    titleColor: '#8B4513', // Saddle brown for titles
+    cardBgColor: '#FFFFFF', // Pure white for cards
+    cardForeColor: '#1E1E1E', // Dark gray for card text
+    titleColor: '#008080', // Teal for titles
   },
-  timelineLineColor: '#C0A080', // Muted gold for the timeline
-  cardBackground: '#F5E4C3', // Warm beige for card background
-  cardFooterBackground: '#E8D5B7', // Light tan for footer
-  cardBorderColor: '#967C49', // Soft bronze for borders
+  timelineLineColor: '#B0B0B0', // Soft gray for the timeline
+  cardBackground: '#EDEDED', // Light gray for card background
+  cardFooterBackground: '#DCDCDC', // Subtle gray for footer
+  cardBorderColor: '#C0C0C0', // Light silver for borders
   navbarTheme: {
-    linkColor: '#5A4B41', // Dark cocoa brown for links
-    linkHoverColor: '#8B4513', // Saddle brown on hover
-    linkActiveColor: '#DAA520', // Goldenrod for active links
+    linkColor: '#2A2A2A', // Dark gray for links
+    linkHoverColor: '#008080', // Teal on hover
+    linkActiveColor: '#20B2AA', // Lighter teal for active links
   },
   bsPrimaryVariant: 'light',
   bsSecondaryVariant: 'dark',
-  socialIconBgColor: '#8B4513', // Saddle brown for social icons
+  socialIconBgColor: '#008080', // Teal for social icons
 };
 
 export const darkTheme = {
-  background: '#2C1B28', // Dark maroon for a deep, royal feel
-  color: '#EAEAEA', // Pale silver for text
-  accentColor: '#FF8C00', // Dark orange for bold accents
+  background: '#1A1A1A', // Deep charcoal for a sleek, modern look
+  color: '#E0E0E0', // Light gray for text
+  accentColor: '#00CED1', // Electric cyan for accents
   chronoTheme: {
-    cardBgColor: '#3B2D2F', // Dark cocoa brown for cards
-    cardForeColor: '#EAEAEA', // Pale silver for text on cards
-    titleColor: '#FF8C00', // Dark orange for titles
+    cardBgColor: '#252525', // Dark gray for cards
+    cardForeColor: '#E0E0E0', // Light gray for card text
+    titleColor: '#00CED1', // Electric cyan for titles
   },
-  timelineLineColor: '#B5651D', // Deep bronze for the timeline
-  cardBackground: '#4C3A40', // Muted maroon for card background
-  cardFooterBackground: '#362A2F', // Darker cocoa for footer
-  cardBorderColor: '#A0522D', // Sienna for borders
+  timelineLineColor: '#A9A9A9', // Medium gray for the timeline
+  cardBackground: '#2C2C2C', // Dark slate gray for card background
+  cardFooterBackground: '#1E1E1E', // Charcoal gray for footer
+  cardBorderColor: '#404040', // Dark gray for borders
   navbarTheme: {
-    linkColor: '#D8BFD8', // Thistle (soft lavender) for links
-    linkHoverColor: '#FF8C00', // Dark orange on hover
-    linkActiveColor: '#FFD700', // Royal gold for active links
+    linkColor: '#C0C0C0', // Light silver for links
+    linkHoverColor: '#00CED1', // Electric cyan on hover
+    linkActiveColor: '#00FFFF', // Bright cyan for active links
   },
   bsPrimaryVariant: 'dark',
   bsSecondaryVariant: 'light',
-  socialIconBgColor: '#FF8C00', // Dark orange for social icons
+  socialIconBgColor: '#00CED1', // Electric cyan for social icons
 };
