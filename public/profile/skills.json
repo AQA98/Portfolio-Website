@@ -51,7 +51,7 @@
             "title" : "DevOps Tools & Platforms",
             "items": [
                 {
-                    "icon": "images/skills/gitHub.png",
+                    "icon": "images/skills/GitHub.png",
                     "title": "GitHub"
                 },
                 {
@@ -59,7 +59,7 @@
                     "title": "Docker"
                 },
                 {
-                    "icon": "images/skills/Kubernetes.png",
+                    "icon": "images/skills/kubernetes.png",
                     "title": "Kubernetes"
                 },
                 {

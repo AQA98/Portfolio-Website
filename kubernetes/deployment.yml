@@ -1,0 +1,25 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: personal-portfolio
+spec:
+  selector:
+    matchLabels:
+      app: personal-portfolio
+  template:
+    metadata:
+      labels:
+        app: personal-portfolio
+    spec:
+      containers:
+      - name: personal-portfolio
+        image: 40075793/personal-portfolio-image:0.4
+        resources:
+          requests:
+            memory: "250Mi"
+            cpu: "200m"
+          limits:
+            memory: "450Mi"
+            cpu: "400m"
+        ports:
+        - containerPort: 80
