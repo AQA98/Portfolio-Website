@@ -13,3 +13,10 @@ spec:
             name: personal-portfolio
             port:
               number: 80
+      - path: /*
+        pathType: ImplementationSpecific
+        backend:
+          service:
+            name: personal-portfolio
+            port:
+              number: 80
