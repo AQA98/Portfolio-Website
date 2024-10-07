@@ -2,6 +2,7 @@
 node_modules
 /kubernetes
 kubeconfig
+nginx.conf
 
 # Ignore Docker-related files
 Dockerfile
