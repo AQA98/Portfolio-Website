@@ -19,4 +19,15 @@ jobs:
       run: |
         docker build -t ${{ secrets.DOCKERHUB_USERNAME }}/personal-portfolio-image:${IMAGE_TAG} -f ./Dockerfile .
         docker push ${{ secrets.DOCKERHUB_USERNAME }}/personal-portfolio-image:${IMAGE_TAG}
+    - name: Set up kubectl
+      uses: azure/setup-kubectl@v3
+      with:
+        version: "latest"
+
+    - name: Configure kubeconfig
+      run: |
+        echo "${{ secrets.KUBE_CONFIG }}" | base64 -d > kubeconfig.yaml
+        export KUBECONFIG=kubeconfig.yaml
+        kubectl get all
+
 
