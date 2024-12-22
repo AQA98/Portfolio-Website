@@ -8,8 +8,6 @@ jobs:
     steps:
     - name: git checkout
       uses: actions/checkout@v3
-    - name: ls
-      run: pwd && ls
     - name: Login to Docker Hub
       uses: docker/login-action@v3
       with:
