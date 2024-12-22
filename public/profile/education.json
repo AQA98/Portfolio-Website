@@ -1,26 +1,26 @@
 {
     "education":[
         {
-            "title": "On Going",
-            "cardTitle": "AWS",
+            "title": "AWS Solution Architect Associate",
+            "cardTitle": "Amazon Web Services [AWS]",
             "cardSubtitle":"AWS Solution Architect Associate",
-            "cardDetailedText": "Expected Completion: Nov 2024",
+            "cardDetailedText": "Expected Completion: Jan 2025",
             
             "icon" : {
                 "src": "images/education/AWS.png"
             }
         },{
-            "title": "On Going",
-            "cardTitle": "Kubernetes",
+            "title": "Certified Kubernetes Application Developer",
+            "cardTitle": "Cloud Native Computing Foundation (CNCF)",
             "cardSubtitle":"CKAD Certification",
-            "cardDetailedText": "Expected Completion: Oct 2024",
+            "cardDetailedText": "December 2024",
             
             "icon" : {
                 "src": "images/education/kubernetes.png"
             }
         },
         {
-            "title": "2019-2023",
+            "title": "Software Engineering",
             "cardTitle": "Concordia University, Montreal",
             "cardSubtitle":"B.Eng Software Engineering [Co-op]",
             "cardDetailedText": "2019-2023",

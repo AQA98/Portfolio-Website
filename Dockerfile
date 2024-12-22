@@ -25,7 +25,7 @@ RUN rm -rf ./*
 COPY --from=build /app/build .
 
 # Copy a custom NGINX configuration file - optional
-COPY nginx.conf /etc/nginx/nginx.conf
+COPY /Nginx/nginx.conf /etc/nginx/nginx.conf
 
 # Expose port 80 to access the app
 EXPOSE 80

@@ -77,6 +77,10 @@
                 {
                     "icon": "images/skills/jenkins.png",
                     "title": "Jenkins"
+                },
+                {
+                    "icon": "images/skills/helm.png",
+                    "title": "Helm"
                 }
             ]
     }

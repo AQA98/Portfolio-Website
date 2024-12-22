@@ -13,7 +13,7 @@ spec:
     spec:
       containers:
       - name: personal-portfolio
-        image: 40075793/personal-portfolio-image:0.4
+        image: 40075793/personal-portfolio-image:2.0
         resources:
           requests:
             memory: "250Mi"
