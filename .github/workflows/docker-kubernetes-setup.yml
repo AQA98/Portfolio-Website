@@ -15,7 +15,7 @@ jobs:
         password: ${{ secrets.DOCKERHUB_TOKEN }}
     - name: Build and push Docker image
       env:
-        IMAGE_TAG: ${{ github.sha }}
+        IMAGE_TAG: ${{ github.run_number }}
       run: |
         docker build -t ${{ secrets.DOCKERHUB_USERNAME }}/personal-portfolio-image:${IMAGE_TAG} -f ./Dockerfile .
         docker push ${{ secrets.DOCKERHUB_USERNAME }}/personal-portfolio-image:${IMAGE_TAG}
