@@ -28,15 +28,16 @@ jobs:
       with:
         version: "latest"
 
-    - name: Configure kubeconfig
+    - name: Configure kubeconfig and deploy to kubernetes
       run: |
         echo "${{ secrets.KUBE_CONFIG }}" | base64 -d > kubeconfig.yaml
         export KUBECONFIG=kubeconfig.yaml
         echo "${{ github.run_number }}"
+        kubectl set image deployment/personal-portfolio personal-portfolio=40075793/personal-portfolio-image:${{ github.run_number }}
 
-    - name: Deploy to Kubernetes (Set Image)
-      run: |
-        kubectl set image deployment/personal-portfolio personal-portfolio=${{ secrets.DOCKERHUB_USERNAME }}/personal-portfolio-image:${{ github.run_number }}
+    # - name: Deploy to Kubernetes (Set Image)
+    #   run: |
+    #     kubectl set image deployment/personal-portfolio personal-portfolio=40075793/personal-portfolio-image:${{ github.run_number }}
 
     - name: Clean up kubeconfig
       run: |
