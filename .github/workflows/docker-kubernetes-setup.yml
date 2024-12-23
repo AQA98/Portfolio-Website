@@ -34,11 +34,9 @@ jobs:
         export KUBECONFIG=kubeconfig.yaml
         kubectl get all
 
-    - name: Deploy to Kubernetes
+    - name: Deploy to Kubernetes (Set Image)
       run: |
-        # Update the deployment file with the latest image tag
-        sed -i "s|image: .*|image: '${{ secrets.DOCKERHUB_USERNAME }}/personal-portfolio-image:${IMAGE_TAG}'|g" ./kubernetes/deployment.yml
-        kubectl apply -f ./kubernetes/deployment.yml
+        kubectl set image deployment/personal-portfolio personal-portfolio=${{ secrets.DOCKERHUB_USERNAME }}/personal-portfolio-image:${IMAGE_TAG}
 
     - name: Clean up kubeconfig
       run: |
