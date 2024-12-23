@@ -33,7 +33,7 @@ jobs:
       run: |
         echo "${{ secrets.KUBE_CONFIG }}" | base64 -d > kubeconfig.yaml
         export KUBECONFIG=kubeconfig.yaml
-        kubectl get all
+        kubectl describe deployment/personal-portfolio
 
     - name: Deploy to Kubernetes (Set Image)
       env:
