@@ -5,12 +5,15 @@
             "subtitle": "Gatestone & Co Inc.",
             "workType": "Full-time",
             "workDescription": [
-                "Resolving software malfunctions with in SLA by utilizing skills in VM's, Networking and powershell Automation.",
-                "Implemented self serve password reset tool for the entire organization, resulting a 30% drop in call volume.",
-                "Creating power shell scripts for bulk updating user values in active directory.",
-                "Troubleshooting SharePoint access level issues following best ITIL practices.",
-                "Creating process documentation for other team members for a smooth call/email handling process.",
-                "Collaborated with cross-functional teams regarding ongoing and upcoming IT projects."
+                "Resolve software and hardware malfunctions within external and internal SLAs by utilizing skills in AWS, Windows 2010, Linux, Virtualization and Automation techniques.",
+                "Implemented self-serve password reset tool for the entire organization, resulting in a 30% drop in incident volume.",
+                "Create Bash scripts for bulk updating user values in IAM.",
+                "Maintain cloud infrastructure using AWS services such as EC2, EFS, Auto Scaling, and CloudWatch to meet application performance and scalability requirements.",
+                "Work closely with development and other cross-functional teams to support the engineering, implementation, and migration of existing applications to the AWS by providing on-site and on-call support.",
+                "Administer Government of Canada applications by resolving access-level issues and ensuring compliance with security policies.",
+                "Act as a technical expert to investigate and resolve live site incidents, ensuring recovery and root cause analysis.",
+                "Automate ManageEngine for incident management and ticket creation.",
+                "Create and maintain detailed technical documentation for processes, tools, and incident resolutions."
             ],
             "dateText": "05/2022 – Present"
         },
@@ -32,7 +35,8 @@
             "workDescription": [
                 "Used python (NumPy & Pandas) to extract information out of supplier excel files.",
                 "Leveraged Express.js for backend and HTML & CSS for frontend to publish and update process documentation on Bombardiers website.",
-                "Used VBA to record and modify excel macros to extact supplier information."
+                "Used VBA to record and modify excel macros to extact supplier information.",
+                "Integrated CI/CD pipelines with GitHub Actions, and SonarQube, reducing deployment time and production malfunctions by following SRE best practices."
             ],
             "dateText": "09/2020 – 04/2021"
         }
