@@ -13,7 +13,7 @@ spec:
     spec:
       containers:
       - name: personal-portfolio
-        image: "${{ secrets.DOCKERHUB_USERNAME }}/personal-portfolio-image:latest" #placeholder
+        image: '${{ secrets.DOCKERHUB_USERNAME }}/personal-portfolio-image:latest' #placeholder
         resources:
           requests:
             memory: "250Mi"
