@@ -17,11 +17,12 @@ jobs:
         password: ${{ secrets.DOCKERHUB_TOKEN }}
 
     - name: Build and push Docker image
-      env:
-        IMAGE_TAG: ${{ github.run_number }}
+      id: build_and_push  # Add an ID to the step for outputs
       run: |
-        docker build -t ${{ secrets.DOCKERHUB_USERNAME }}/personal-portfolio-image:${IMAGE_TAG} -f ./Dockerfile .
-        docker push ${{ secrets.DOCKERHUB_USERNAME }}/personal-portfolio-image:${IMAGE_TAG}
+        IMAGE_TAG=${{ github.run_number }}
+        echo "IMAGE_TAG=$IMAGE_TAG" >> $GITHUB_ENV
+        docker build -t ${{ secrets.DOCKERHUB_USERNAME }}/personal-portfolio-image:$IMAGE_TAG -f ./Dockerfile .
+        docker push ${{ secrets.DOCKERHUB_USERNAME }}/personal-portfolio-image:$IMAGE_TAG
 
     - name: Set up kubectl
       uses: azure/setup-kubectl@v3
@@ -35,8 +36,10 @@ jobs:
         kubectl get all
 
     - name: Deploy to Kubernetes (Set Image)
+      env:
+        IMAGE_TAG: ${{ env.IMAGE_TAG }}  # Use the shared environment variable
       run: |
-        kubectl set image deployment/personal-portfolio personal-portfolio=${{ secrets.DOCKERHUB_USERNAME }}/personal-portfolio-image:${IMAGE_TAG}
+        kubectl set image deployment/personal-portfolio personal-portfolio=${{ secrets.DOCKERHUB_USERNAME }}/personal-portfolio-image:$IMAGE_TAG
 
     - name: Clean up kubeconfig
       run: |
