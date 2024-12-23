@@ -29,5 +29,15 @@ jobs:
         echo "${{ secrets.KUBE_CONFIG }}" | base64 -d > kubeconfig.yaml
         export KUBECONFIG=kubeconfig.yaml
         kubectl get all
+    
+    - name: Deploy to Kubernetes
+      run: |
+        # Update the deployment file with the latest image tag
+        sed -i "s|image: .*|image: ${{ secrets.DOCKERHUB_USERNAME }}/personal-portfolio-image:${IMAGE_TAG}|g" ./kubernetes/deployment.yaml
+        kubectl apply -f ./kubernetes/deployment.yaml
+
+    - name: Clean up kubeconfig
+      run: |
+        rm -f kubeconfig.yaml
 
 
