@@ -36,7 +36,7 @@ jobs:
 
     - name: Deploy to Kubernetes (Set Image)
       run: |
-        kubectl set image deployment/personal-portfolio personal-portfolio=${{ secrets.DOCKERHUB_USERNAME }}/personal-portfolio-image:${IMAGE_TAG}
+        kubectl set image deployment/personal-portfolio personal-portfolio=${{ secrets.DOCKERHUB_USERNAME }}/personal-portfolio-image:${{ github.run_number }}
 
     - name: Clean up kubeconfig
       run: |
