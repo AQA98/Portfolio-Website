@@ -21,8 +21,8 @@ jobs:
         IMAGE_TAG: ${{ github.run_number }}
       run: |
         docker system prune -a
-        docker build -t ${{ secrets.DOCKERHUB_USERNAME }}/personal-portfolio-image:${IMAGE_TAG} -f ./Dockerfile . --no-cache
-        docker push ${{ secrets.DOCKERHUB_USERNAME }}/personal-portfolio-image:${IMAGE_TAG}
+        docker build -t ${{ secrets.DOCKERHUB_USERNAME }}/personal-portfolio-image2:${IMAGE_TAG} -f ./Dockerfile . --no-cache
+        docker push ${{ secrets.DOCKERHUB_USERNAME }}/personal-portfolio-image2:${IMAGE_TAG}
 
     - name: Set up kubectl
       uses: azure/setup-kubectl@v3
@@ -34,7 +34,7 @@ jobs:
         echo "${{ secrets.KUBE_CONFIG }}" | base64 -d > kubeconfig.yaml
         export KUBECONFIG=kubeconfig.yaml
         echo "${{ github.run_number }}"
-        kubectl set image deployment/personal-portfolio personal-portfolio=40075793/personal-website2:${{ github.run_number }}
+        kubectl set image deployment/personal-portfolio personal-portfolio=40075793/personal-portfolio-image2:${{ github.run_number }}
 
     # - name: Deploy to Kubernetes (Set Image)
     #   run: |
