@@ -3,7 +3,7 @@
         {
             "image" : "images/projects/Portfolio.png",
             "title": "My Portfolio website",
-            "bodyText": "- Portfolio Website made using **React.JS**.\n -  **Docorized** the application, build the image using NGNIX server and pushed the image to **dockerHub registery**.\n - Deployed the app on **Kubernetes** multi-node cluster.\n - Used Github Actions to automate the docker image building, pushing to remote dockerHub registery and than deploying to kubernetes cluster by just pushing to main branch of the gitHub repository",
+            "bodyText": "- Portfolio Website made using **React.JS**.\n -  **Docorized** the application, build the image using NGNIX server and pushed the image to **dockerHub registery**.\n - Deployed the app on **Kubernetes** multi-node cluster.\n - Used Github Actions to automate the docker image building, pushing to remote dockerHub registery and than deploying to kubernetes cluster by just pushing to main branch of the gitHub repository.",
             "links": [
                 {
                     "text": "GitHub",

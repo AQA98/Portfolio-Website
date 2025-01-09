@@ -18,13 +18,13 @@
             "dateText": "05/2022 – Present"
         },
         {
-            "title": "Software Developer QA Intern",
+            "title": "Devops Intern",
             "subtitle": "Lallemand Montreal",
             "workType": "Internship",
             "workDescription": [
-                "Validated excel reports using VBA, VLOOKUP and pivot tables during UAT phase of transition to Cognos 11 from Cognos 10.",
-                "Accomplished participation in test scenario meetings, providing valuable input to enhance testing outcomes.",
-                "Communicated the findings to the development team and stakeholders using analytical and problem solving skills."
+                "Designed, developed, and maintained Kubernetes platforms, leveraging Helm to ensure efficient container orchestration and scalability.",
+                "Implemented CI/CD pipelines using GitHub Actions to automate application deployment workflows, reducing manual intervention for creating Docker images on each push.",
+                "Documented operational processes and troubleshooting procedures to support knowledge sharing and team efficiency."
             ],
             "dateText": "06/2021 – 10/2021"
         },
