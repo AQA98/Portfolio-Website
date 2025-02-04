@@ -1,4 +1,2 @@
-Its my personal portfolio website inspired from:
-https://github.com/mayankagarwal09/dev-portfolio/tree/master?tab=readme-ov-file
-
-I will be dockerizing this webapp and push the image on dockerhub. After that, I will be creating a kuberneted cluster and will host my portfolio website on that cluster.
+The app is dockerized and is running on kubernetes cluster [http://212.2.247.147/].
+CI/CD is created using github actions which will dockerize the application and push it to the remote repository, Where kubernetes deployment picks that new image [on every merge to the main branch] and deploys it to the cluster.
